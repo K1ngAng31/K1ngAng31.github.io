@@ -1,0 +1,262 @@
+.HP{
+  /* background-image: url("./images/unnamed.png"); */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.oll {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #800020;
+}
+
+.o {
+  float: center;
+}
+
+.o a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.o a:hover {
+  background-color: black;
+}
+
+.list{
+  text-align: left;
+  color: white;
+}
+.APP{
+  background-image: url("./images/unnamed.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.PP{background-image: url("../images/unnamed.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+.container {
+	margin: 0 auto; /* Center it */
+  max-width: 800px; /* Maximum width */
+	position: relative;
+
+}
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+	 /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+	 /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 96%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.fa {
+  padding: 25px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: black;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+.fa-github{
+  background: black;
+  color: white;
+}
+#contact,
+#footer {
+  padding-top: 70px;
+  width: 100%;
+  font-size: 1.1em;
+  bottom: 0;
+}
+
+#contact-body {
+  padding-right: 0px;
+  padding-left: 10%;
+}
+
+#contact-title h3 {
+  padding-bottom: 24px;
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 0px;
+  color: #052230;
+}
+
+.contact-text {
+  font-size: 0.8em;
+  margin-bottom: 15.75px;
+}
+
+/* Contact block effect */
+.contact-outer-color-block {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 800px;
+}
+
+.contact-inner-color-block {
+  width: 150%;
+  height: 150%;
+  background-color: #F5F2EF;
+  /* background-color: rgb(255, 128, 0);  */
+  position: absolute;
+  left: -35px;
+  -webkit-transform: rotate(-3deg);
+}
+
+.contact-form-block {
+  padding: 0 !important;
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.form-block {
+  max-width: 585px;
+}
+
+/* Contact greeting */
+.contact-greeting {
+  align-items: center;
+  padding-right: 0px;
+}
+
+/* Form */
+.form-control {
+  color: #052230;
+  background-color: #fcfbfa;
+  border-color: #b1b1b1;
+}
+
+.selector-and-message {
+  position: relative;
+}
+
+#submit-btn {
+  margin-top: 19.5px !important;
+}
+
+.first-name-box {
+  margin-top: 10.5px !important;
+}
+
+.email-box {
+  margin-bottom: 0px !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Floating labels effect */
+.inputBox {
+  position: relative;
+}
+
+.inputBox input {
+  margin-bottom: 30px;
+}
+
+.inputBox label {
+  position: absolute;
+  top: -2px;
+  left: 12px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #052230;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label {
+  top: -30px;
+  left: 0px;
+  color: #052230;
+  font-size: 12px;
+}
+
+.form-control:focus,
+.form-control:active {
+  box-shadow: none;
+  border-color: #052230;
+}
+
+#skill-body,
+#education-body,
+#contact{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#skill-title h3,
+#education-title h3,
+.reco-affi-past-title h3 {
+  padding-top: 70px;
+  padding-bottom: 24px;
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 0px;
+  color: green;
+}
