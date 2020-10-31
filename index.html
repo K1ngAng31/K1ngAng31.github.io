@@ -1,227 +1,272 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="Resources/my_style.css" rel="stylesheet">
-    </head>
-    <body style = "background-image: url('images/bw.png');">
-      <div id="navbar">
-        <a href="#home" id="logo">Angel Santana</a>
-        <div id="navbar-left">
-          <a  href="#home">About Me</a>
-          <a  href="#Projects">Personal Projects • Course Work</a>
-          <a href="#Professional">Profesional Profile</a>
-        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="my_style.css">
+    <title>Angel Santana</title>
+  </head>
+  <body>
+    <div id="Home"></div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#Home">Home</a>
+        <a href="#AboutMe">About Me</a>
+        <a href="#PCW">Projects</a>
+        <a href="#PF">Profesional Profile</a>
+        <a href="#HE">Hobbies • Extracurriculars</a>
+        <a href="#Contact">Contact</a>
       </div>
-    <br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <!-- ABOUT ME -->
-    <div style="padding-left:16px">
-      <div align=center>
-          <p align = center><h1> <a href="soon_to_come.html" target="_blank">FEATURED PROJECT COMING 2021</a></h1></p>
-          <p>Learn more about it in Personal Projects • Course Work</p>
-      </div>
-      <!-- <h2>Responsive Topnav Example</h2>
-      <p>Resize the browser window to see how it works.</p> -->
-      <div id = "home" class="container" align="middle" >
+    </div>
 
-        <img src="images/image.jpg" alt="About Me" width="700" height="500" ></img>
-        <!-- <div class="content" align="middle"> -->
-          <!-- <h1> Angel Santana Hernandez </h1> -->
-        <!-- </div> -->
+
+    <span style="font-size:30px;cursor:pointer;font-family:fantasy" onclick="openNav()">&#9776;</span>
+    <div class="parallax"></div>
+    <div class="caption" id="AboutMe">
+      <span class="border"> Welcome!</span>
+      <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+      <h1 class="h1Angel">
+        <span
+           class="txt-rotate"
+           data-period="1000"
+           data-rotate='["I am a future Software Engineer.", "I have experience in python scripting.", "I like to build and create software.", "Lets create something amazing." ]'>
+        </span>
+      </h1>
+    </div>
+    <span style="font-size:30px;cursor:pointer;font-family:fantasy" onclick="openNav()">&#9776; About Me</span>
+    <div>
+      <div class="row">
+      <div class="column" style="font-family:fantasy">
+        <h1 style="font-size:40px;"align = "center">Angel Santana</h1><hr>
+        <p><h2>I am passionate about creating and building software that is fun and modern.</h2></p>
+        <p><h2>I hope to help people in the future create and build amazing things.</h2></p>
+        <p><h2>Currently, I am attending CU Boulder where I will be receiving my Bachelors of Science in Computer Science.</h2></p>
+      </div>
+      <div class="column" align = "center">
+        <img src="image1.jpg" alt="About Me" width="700" height="500" ></img>
+        <h5 style="font-family:cursive">The Vatican City, Italy</h5>
       </div>
     </div>
-    <div class="container" align="middle" >
-    <h1 style="color:black" align = "center">A little about me... </h1>
-    <p  class="text" style="color:white" align = "left" ><b>
-      <div class="list" >
-          Currently I am a student at the College of Engineering and Applied Science located at
-          CU Boulder.
-          I am pursuing a Bachelors of Science in Computer Science.
-          I will be graduating in May of 2021.
-       <p> One of my favorite hobbies right now is playing <a href="https://www.rocketleague.com/" target="_blank" style="color:blue">Rocket League &trade;</a> with friends.</p>
-       <p> Another hobby of mine is working out. I love to relieve stress by bench pressing, running, boxing, and just pushing the body to its limits. </p>
-       <p> Movies also takes up some of my free time. I enjoy action, adventure, horror, and comedy. </p>
-      <p> Travling is also a hobby of mine, due to this pandmic, I have not been able to do much of it. I have been fortunate enough to go to 10 countries: England, France, Belgium, Italy, The Vatican City, Netherlands, Switzerland, Austria, Greece, and Germany.
-       </p>
-       </div>
-       <hr>
-    </div>
-    <br><br><br><br><br><br><br><br>
-    <div id = "Projects"></div>
-    <!-- END ABOUT ME -->
-<br><br><br><br><br><br><br><br>
-    <!-- PROJECTS AND COURSE WORK  -->
-    <div align = center style="color:black"><h1><u>Course Work Projects • Personal Projects</u></h1></div>
-      <div class="container">
-         <div data-toc style="color:white"></div>
-         <div data-content style="color:white">
-           <br>
-           <br>
-           <br>
-           <h2 id = "Course Work Projects" align = "center" style="color: Red"> <u>Course Work Projects</u> </h2>
-             <div id = "DataStructures"></div>
-           <h3 id = "DataStructures" style="color:black"><u> Data Structures </u></h3>
-           <div class ="ds" style="font-size: 20px; color:black">
-             <p><li> This was one of my favorite classes that drew me into computer sciences.</li></p>
-             <p><li> This course, I beleive, was the turning point to what I thought about how programming works. </li></p>
-             <p><li> It showed me the basics of C++ and how it is used in OOP (object oriented programming).</li></p>
-             <p><li> The best part about this class was our final project. As a team were we created a pizza game simulation. Our goal was to be able to find a way to
-             deliver pizzas faster and more efficiently. We implemented Priority Queues, Stacks, Linked Lists, and Pointers.</li></p>
-             <p><li> Here is a look at some of the assignemnts completed during this course. <a href="https://github.com/K1ngAng31/DataStructures" target="_blank" style="color:blue">Data Structures<a></li></p>
-             <br>
-           </div>
-           <h3 id = "Software Dev"style="color:black"><u> Software Development & Tools </u></h3>
-           <div class = "SWD" style="font-size: 20px; color:black">
-             <p><li> Another one of my favorite classes.</li></p>
-             <p><li> This course was super exciting to do because aside from OOP, it was a fun experience learning the basics of HTML5, CSS, and Javascript. </li></p>
-             <p><li> This class gave me the idea to create this website from scratch. (Definitely took some time)</li></p>
-             <p><li> I took this course durring the summer of 2019 and it was very fast paced, nonetheless, it was a very exciting turning point for me.</li></p>
-             <p><li> For this class We designed a website that was meant for Slam Poetry events. The idea and goal was for users to be able to see what
-               competitions/events, related to Slam Poetry, will be going on at a café/bar near them. We also implemented the idea of users being able to
-               sign up at a competition. Using MySQL as our database to be able to populate information such as Name, Email, and DOB from the user.
-               During this experience I was in charge of handling Front End Development. I used the basics of HTML/CSS and Bootstrap methods to be
-               able to make the website and interface. Creating the UX/UI was meant to bring quality content, simplicity, easy accessibility, and
-               overall an enjoyable experience when visiting the website.</li></p>
-             <p><li> Here is a look at the final project. <a href="https://github.com/K1ngAng31/S1AMC0D3" target="_blank" style="color:blue">S1AMC0D3</a></li></p>
-             <br>
-           </div>
-           <h3 id = "Computer Animation"style="color:black"><u> Computer Animation</u></h3>
-           <div class = "ca" style="font-size: 20px;color:black">
-             <p><li> This course was very different then alot of other courses I had taken. </li></p>
-             <p><li> For this class, I did not do any coding, but nonetheless, did a lot of animating and modeling.</li></p>
-             <p><li> I had to put my creativity to the test. The goal was to recreate a model of a real life architectural figure.</li></p>
-             <p><li> Used modeling skills, textures and lighting. Lastly, animated a walkthrough of the indoor pool using Arnold Rendering</li></p>
-             <p><li> Here is a look at the final project. <a href="https://youtu.be/tkmN4zhlPos" target="_blank" style="color:blue"> Animated Pool</a></li></p>
-             <br>
-             <br>
-           </div>
-           <br>
-           <h2 id = "Personal Projects" align = "center" style="color:Red"> <u> Personal Projects </u></h2>
-           <h3 id = "Simple Calculator App" style="color:black"><u> Simple Calculator App </u></h3>
-           <div class ="ds" style="font-size: 20px; color:black">
-             <p><li> This was the first application I made. It was built using <u>React.js</u>, which is a Front-End, Javascript library.</li></p>
-             <p><li> The main reason I used React.js, is because it is highly popular and I believe this was a great step into creating a fun and interactive UX/UI.</li></p>
-             <p><li> There were a lot of hiccups in creating this app, it is far from perfect, there is still some logical statements that need to be fixed and added. *Improvements Pending*</li></p>
-             <p><li> To check out the code: <a href="https://github.com/K1ngAng31/calcApp" target="_blank" style="color:blue">Calc-App<a></li></p>
-             <p><li> Here is a look at the most current version: <a href="https://calc-app.k1ngang31.vercel.app" target="_blank" style="color:blue"> Calculator App<a></li></p>
-             <br>
-           </div>
-           <h3 id = "Quiz App" style="color:black"><u> Quiz App (UNDER CONSTRUCTION) </u></h3>
-           <div class ="ds" style="font-size: 20px; color:black">
-             <p><li> Another fun application built using <u>React.js</u>.</li></p>
-             <p><li> Current Issues:
-                 <ul>- The html body is too at the top.</ul>
-                 <ul>- I want to be able to center more in the middle of the page.</ul>
-                 <ul>- Not sure what kind of quiz app to make, currently thinking a quiz app on Python.</ul>
-                 <ul>- When questions are done, I haven't been able to get it to ask "Try again" or print a message</ul>
-               </li></p>
-             <br>
-           </div>
-           <h3 id = "Python" style="color:black"><u> Learn How to Python (UNDER CONSTRUCTION) </u></h3>
-           <div class ="ds" style="font-size: 20px; color:black">
-             <p><li> <a href="soon_to_come.html" target="_blank"> Learn to Python</a></li></p>
-             <p><li> Teach Python Programming:
-                 <ul>Go over basic python syntax</ul>
-                 <ul>Introduction, Installing/Running Python for FIRST TIMERS</ul>
-                 <ul>Basic Calculations | Varaibles</ul>
-                 <ul>Python Types</ul>
-                 <ul>And much more...</ul>
-               </li>
-             </p>
-             <br>
-           </div>
+  </div>
+  <div class="parallax3" id="PCW"></div>
+  <span style="font-size:30px;cursor:pointer;font-family:fantasy" onclick="openNav()">&#9776; Projects</span>
+  <div style="color: #777;background-color:transparent;text-align:center;padding:50px 80px;text-align: justify;">
+      <!-- <h1 style="text-align:center; font-size: 35px;">About Me</h1> -->
+    <div class="row">
+      <div class="column">
+        <div class ="ds" style="font-size: 20px; color:black">
+          <h1 align = "center">Simple Calculator using React.js</h1>
+          <p>This was the first application I made. It was built using <u>React.js</u>, which is a Front-End, Javascript library.</p>
+          <p>The main reason I used React.js, is because it is highly popular and I believe this was a great step into creating a fun and interactive UX/UI. There were a lot of hiccups in creating this app, it is far from perfect, there is still some logical statements that need to be fixed and added. *Improvements Pending*</p>
+          <p> To check out the code: <a href="https://github.com/K1ngAng31/calcApp" target="_blank" style="color:blue">Calc-App<a>.To test the current version: <a href="https://calc-app.k1ngang31.vercel.app" target="_blank" style="color:blue"> Calculator App<a></p>
+            <hr>
+        </div>
+         <div class ="ds" style="font-size: 20px; color:black">
+           <h1 align = "center">Quiz App --> Build has been paused.</h1>
+           <p> Another fun application built using <u>React.js</u>.</p>
+           <p> Current Issues include: html body is too at the top., I want to be able to center the content for it to be more appealing, and when questions are done,
+             I haven't been able to get it to ask "Try again" or print a message</p>
+          <p> To check out the code: <a href="https://github.com/K1ngAng31/quiz_app" target="_blank" style="color:blue">Quiz-App</a>. Again, it is running, but not working for user to have a good experience.</p>
+          <hr>
          </div>
-         <script src="javascript/table-of-contents.js"></script>
-         <script>
-           tableOfContents('[data-content]', '[data-toc]', {
-             heading: '', // Change the headings
-             listType: 'ol', // Change the list type
-             // levels: 'h2, h3' // Change the levels used
-           });
-         </script>
-       <hr>
       </div>
-      <p align = "center" style="color:blue"><b>Feel free to ask about my Projects and Course Work. </b></p>
-
-      <br><br><br><div id  = "Professional"></div><br><br><br>
-
-    <br><br><br>
-    <div class = "container" >
-      <h1 style = "color: black" align = "center"> <u>Professional Profile </u></h1>
-      <h3 style = "color:Green"><u>Skills</u></h3>
-        <h4 style = "color:blue">Programming Languages & Libraries</h4>
-        <p><li style = "color:black"> Python | C++ | HTML5/CSS | Java/JavaScript | Scala | C | ROS | LaTex | Pandas | NumPy | Matplotlib</li></p>
-        <h4 style = "color:blue"> Tools & Environment</h4>
-        <p><li style = "color:black">Xcode | Linux | MySQL | Arduino | Ubuntu</li></p>
-        <h4 style = "color:blue"> User Research</h4>
-        <p><li style = "color:black">Persona Design | Story Boarding | Heuristic Evaluation</li></p>
-        <h4 style = "color:blue"> AutoDesk</h4>
-        <p><li style = "color:black">CAD: Part Modeling | Basic Drawing | Assembly Modeling | Surface Modeling | Mold Design | Symmetry and Basic Patterns</li></p>
-         <p><li style = color:black>MAYA: UVs | Materials and Textures | Dynamics | lighting and Rendering</li></p>
-        <h3 style = "color:Green"><u>Relevant Courses</u></h3>
-        <p><li style = color:black> Algorithms, Principles of Programming Languages,
-            Database Systems, Computer Systems, Intro to Data Science, Intro
-            to Artificial Intelligence, Intro to Robotics, Software Development Methods & Tools, Data
-            Structures, Fundamentals of HCI, Discrete Structures, Linear Algebra, Computer Science 1</li></p>
-        <h3 style = "color:green"><u> Languages</u></h3>
-        <p> <li style = color:black> Fluent English & Spanish</li></p>
-    </div>
-
-    <div class = container>
-        <div>
-            <h3 align = left style = color:green><u>Education</u></h3>
+      <div class="column">
+         <div class ="ds" style="font-size: 20px; color:black">
+           <h1 align = "center">Learn How to Python</h1>
+           <p>Currently working on a website that will explain python in an easy way using my own experiences and my own take on it.
+             This idea came from me teaching my little sister. I knew there was a better way to make this possible. Not only do I want to make is understandable for children, but for adults as well. </p>
+           <p>Right now it is under construction. I am hoping to have it done by the start of 2021. I am excited to show kids and adults how fun programming can be. <a href="soon_to_come.html" target="_blank"> Learn to Python</a></p>
+           <p>The basics of what I hope to cover. I know there will be a lot more in the future. Teach Python Programming:
+               <ul>Go over basic python syntax</ul>
+               <ul>Introduction, Installing/Running Python for FIRST TIMERS</ul>
+               <ul>Basic Calculations | Varaibles</ul>
+               <ul>Python Types</ul>
+               <ul>And much more...</ul>
+           </p>
+           <hr>
+         </div>
+         <div class ="ds" style="font-size: 20px; color:black">
+           <h1 align = "center">Related Course Work</h1>
+           <p>Some noticeable course work that inspired me to stay in a Computer Science route.</p>
+           <p>Data Structures, Algorithms, Intro to Data Science, Intro to Artificial Intelligence, Introduction to Robotics, Software Development Methods & Tools,
+             and Fundamentals of Human Computer Interaction
+           </p>
+           <p>These course taught me the basic ins and outs of computer programming, from Object Oriented Programming to Builing my first website. These course were very much hands on
+           that every code built and processed was fun. Though at times it was hard and had a lot of SEG FAULTS (if you know what I mean), the oppurtunity
+         to learn from the mistakes was fun.</p>
+           <br>
+         </div>
         </div>
-        <h4 class="school-name" style = color:black>University of Colorado Boulder • College of Engineering and Applied Sciences <span style = color:red>Fall 2016 – Present</span></h4>
-            <ul>
-                <h4 align = center><a href="https://www.colorado.edu/cs/why-cu" target="_blank" style = color:blue>Bachelor's of Science in Computer Science</a></h4>
-            </ul>
-        <h4 class="school-name" style = color:black>Early College of Arvada High School <span style = color:red> Fall 2012 – Spring 2016</span></h4>
-            <ul>
-                <h4 align = center><a href="https://ecarvada.org/" target="_blank" style = color:blue>High School Diploma</a></h4>
-            </ul>
-            <hr>
+      </div>
     </div>
-    <br><br><br><br><br>
-    <div class="container" align= center>
-          <h4 style = color:blue align= center> Thank you for looking around! </h4>
-          <br><br><br>
-          <h4 style = color:black align= center> As of now, I am currently looking for a full time position upon graduation in May of 2021.</h4>
-          <h4 style = color:black align= center> I am looking into UX/UI Engineer, Software Developer,
-            Data Analyst, Software Engineering, Machine Learning, and Artificial Intelligence.</h4>
-          <h4 style = color:black align= center> For any oppurtunities available, I would love to get in contact with you. Please reach out to me at my linkedin provided below.</h4>
-          <h4 style = color:black align= center> I have also provided my GitHub. Stay tuned for new projects to come. </h4>
-            <br>
-          <h4 style = color:black align= center></h4>
-            <div align = center>
-            <a href="https://www.linkedin.com/in/angel-santana-hernandez-0b7358121/" class="fa fa-linkedin" target="_blank"></a>
-            <a href="https://github.com/K1ngAng31" class  = " fa fa-github" target="_blank"></a>
+
+    <div class="parallax4" id = "PF">
+    </div>
+    <span style="font-size:30px;cursor:pointer;font-family:fantasy" onclick="openNav()">&#9776; Profesional Profile</span>
+    <div style="color: #777;background-color:transparent;text-align:center;padding:50px 80px;text-align: justify;">
+      <!-- <h1 style="text-align:center; font-size: 35px;">About Me</h1> -->
+      <div class="row">
+          <div class="column" style="font-size: 20px; color:black;">
+            <h1>Skills</h1>
+            <h4 style = "color:blue">Programming Languages & Libraries</h4>
+            <p style = "color:black"> Python | C++ | HTML5/CSS | Java/JavaScript | Scala | C | ROS | LaTex | Pandas | NumPy | Matplotlib</p>
+            <h4 style = "color:blue"> Tools & Environment</h4>
+            <p style = "color:black">Xcode | Linux | MySQL | Arduino | Ubuntu</p>
+            <h4 style = "color:blue"> User Research</h4>
+            <p style = "color:black">Persona Design | Story Boarding | Heuristic Evaluation</p>
+            <h4 style = "color:blue"> AutoDesk</h4>
+            <p style = "color:black">CAD: Part Modeling | Basic Drawing | Assembly Modeling | Surface Modeling | Mold Design | Symmetry and Basic Patterns</p>
+            <p style = "color:black">MAYA: UVs | Materials and Textures | Dynamics | lighting and Rendering</p>
+            <br><br><hr><br><br>
+            <p align=center>To take a further look into my work and projects, please visit my GitHub.</p>
+            <div align=center>
+              <a href="https://github.com/K1ngAng31" class  = " fa fa-github" target="_blank"></a>
             </div>
-            <hr>
+          </div>
+          <div class="column" style="font-size: 20px; color:black;">
+            <div>
+              <h1 align = center>Education</h1>
+            </div>
+            <h4 class="school-name" style = color:black>University of Colorado Boulder • College of Engineering and Applied Sciences <span style = color:red>Fall 2016 – Present</span></h4>
+            <ul>
+              <h4 align = center><a href="https://www.colorado.edu/cs/why-cu" target="_blank" style = color:blue>Bachelor's of Science in Computer Science</a></h4>
+            </ul>
+            <h4 class="school-name" style = color:black>Early College of Arvada High School <span style = color:red> Fall 2012 – Spring 2016</span></h4>
+            <ul>
+              <h4 align = center><a href="https://ecarvada.org/" target="_blank" style = color:blue>High School Diploma</a></h4>
+            </ul>
+            <br><br><hr><br><br
+            <p> Currently I am looking for an internship or part time job for the Spring Semester of 2021, and a full time position upon graduating in May of 2021.</p>
+            <p>I am looking into UX/UI Engineer, Software Developer,
+              Data Analyst, Software Engineering, Machine Learning, and Artificial Intelligence.</p>
+            <p>I am open to oppurtunities and new experiences. If you'd like to talk further about any oppurtunities, I will provide my linkedin and Email.</p>
+            <div align = center>
+             <a href="https://www.linkedin.com/in/angel-santana-hernandez-0b7358121/" class="fa fa-linkedin" target="_blank"></a>
+             <a href="mailto:ansa2343@colorado.edu?subject=Oppurtunity" class="fa fa-envelope"></a>
+            </div>
+          </div>
+      </div>
     </div>
-    <br><br><br><br><br><br><br><br><br><br>
 
+    <div class="parallax5" id = "HE"></div>
+    <span style="font-size:30px;cursor:pointer;font-family:fantasy" onclick="openNav()">&#9776; Hobbies • Extracurriculars</span>
+    <div style="color: #777;background-color:transparent;text-align:center;padding:50px 80px;text-align: justify;">
+      <!-- <h1 style="text-align:center; font-size: 35px;">About Me</h1> -->
+      <div class="row">
+      <div class="column">
+        <h2 align=center><u>Projects</u></h2>
+        <h1>Hi. I'm Angel Santana. Nice to meet you. Please take a look around.</h1>
+        <p><h2>I am passionate about creating and building software that is fun and modern</h2></p>
+      </div>
+      <div class="column">
+        <h2 align = center><u>Course Work</u></h2>
+        <ul>
+          <li>Turtle Module: More Advanced</li>
+          <br>
+          <li>Use Tkinter Module (Advanced Graphics)</li>
+          <br>
+          <li>Create Game</li>
+          <br>
+          <li>Create Game cont.</li>
+          <br>
+          <h2 align = center>Hobbies • Extracurriculars</h2>
+          <br>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+    
+    <div class="parallaxend"><br><br><h4 style = "color:black" align=right >&copy Angel Santana 2020</h4></div>
 
+    <script>
+      var TxtRotate = function(el, toRotate, period) {
+          this.toRotate = toRotate;
+          this.el = el;
+          this.loopNum = 0;
+          this.period = parseInt(period, 10) || 2000;
+          this.txt = '';
+          this.tick();
+          this.isDeleting = false;
+        };
 
+        TxtRotate.prototype.tick = function() {
+          var i = this.loopNum % this.toRotate.length;
+          var fullTxt = this.toRotate[i];
 
+          if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
 
-<footer align = "center" style="color:black"> &copy Angel Santana 2020 </footer>
-      <script>
-          // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-          window.onscroll = function() {scrollFunction()};
+          this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-          function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-              document.getElementById("navbar").style.padding = "30px 10px";
-              document.getElementById("logo").style.fontSize = "25px";
-            } else {
-              document.getElementById("navbar").style.padding = "80px 10px";
-              document.getElementById("logo").style.fontSize = "35px";
+          var that = this;
+          var delta = 100 - Math.random() * 100;
+
+          if (this.isDeleting) { delta /= 2; }
+
+          if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+          } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+          }
+
+          setTimeout(function() {
+            that.tick();
+          }, delta);
+        };
+
+        window.onload = function() {
+          var elements = document.getElementsByClassName('txt-rotate');
+          for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-rotate');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtRotate(elements[i], JSON.parse(toRotate), period);
             }
           }
-          </script>
+          // INJECT CSS
+          var css = document.createElement("style");
+          css.type = "text/css";
+          css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+          document.body.appendChild(css);
+        };
 
-</body>
+    </script>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>
