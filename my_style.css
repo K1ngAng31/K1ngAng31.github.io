@@ -10,7 +10,7 @@ body, html {
 /* Parallax background  */
 .parallax {
   /* The image used */
-  background-image: url('wb.png');
+  background-image: url('d.png');
 
   /* Full height */
   height: 100%;
@@ -78,13 +78,27 @@ body, html {
   background-size: cover;
 
 }
+.parallax6{
+  /* The image used */
+  background-image: url('contact.png');
+
+  /* Full height */
+  height: 20%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 /* Parallax background  */
 .parallaxend {
   /* The image used */
-  background-image: url('wb.png');
+  background-image: url('d.png');
 
   /* Full height */
-  height: 10%;
+  height: 50%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -110,7 +124,7 @@ body, html {
 }
 .caption span.border {
     /* background-color: #111; */
-    color: black;
+    color: white;
     padding: 20px;
     font-size: 100px;
     letter-spacing: 10px;
@@ -121,7 +135,7 @@ body, html {
 .h1Angel {
   font-weight: 100;
   margin: 0.4em 0;
-  color: black;
+  color: white;
 }
 .h1Angel { font-size: 3.5em; }
 /* row and column about me */
@@ -237,4 +251,119 @@ body, html {
   top: 15px;
   right: 35px;
   }
+}
+#contact,
+#footer {
+  padding-top: 70px;
+  width: 100%;
+  font-size: 1.1em;
+  bottom: 0;
+}
+
+#contact-body {
+  padding-right: 0px;
+  padding-left: 10%;
+}
+
+#contact-title h3 {
+  padding-bottom: 24px;
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 0px;
+  color: #052230;
+}
+
+.contact-text {
+  font-size: 0.8em;
+  margin-bottom: 15.75px;
+}
+
+/* Contact block effect */
+.contact-outer-color-block {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 800px;
+}
+
+.contact-inner-color-block {
+  width: 150%;
+  height: 150%;
+  background-color: #F5F2EF;
+  /* background-color: rgb(255, 128, 0);  */
+  position: absolute;
+  left: -35px;
+  -webkit-transform: rotate(-3deg);
+}
+
+.contact-form-block {
+  padding: 0 !important;
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.form-block {
+  max-width: 585px;
+}
+
+/* Contact greeting */
+.contact-greeting {
+  align-items: center;
+  padding-right: 0px;
+}
+
+/* Form */
+.form-control {
+  color: #052230;
+  background-color: #fcfbfa;
+  border-color: #b1b1b1;
+}
+
+.selector-and-message {
+  position: relative;
+}
+
+#submit-btn {
+  margin-top: 19.5px !important;
+}
+
+.first-name-box {
+  margin-top: 10.5px !important;
+}
+
+.email-box {
+  margin-bottom: 0px !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Contact icons */
+.list-inline-item {
+  margin-bottom: 0px;
+}
+
+#contact .fab {
+  margin: 5px 15px;
+  bottom: 0;
+  color: #052230;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+
+#contact .fa-github-square:hover {
+  color: #6e5494;
+  bottom: 5px;
+}
+
+#contact .fa-google-drive:hover {
+  color: #3d6ec9;
+  bottom: 5px;
+}
+
+#contact .fa-linkedin:hover {
+  color: #0077b5;
+  bottom: 5px;
 }
