@@ -24,7 +24,8 @@ body, html {
 /* My personal image */
 .parallax2{
   /* The image used */
-  background-image: url('image1.jpg');
+  /* background-image: url('image1.jpg'); */
+  background-image: url('s.png');
 
   /* Full height */
   height: 50%;
@@ -38,7 +39,8 @@ body, html {
 }
 .parallax3{
   /* The image used */
-  background-image: url('coding.png');
+  /* background-image: url('coding.png'); */
+  background-image: url('s.png');
 
   /* Full height */
   height: 20%;
@@ -51,7 +53,8 @@ body, html {
 }
 .parallax4{
   /* The image used */
-  background-image: url('smoke.png');
+  /* background-image: url('smoke.png'); */
+  background-image: url('s.png');
 
   /* Full height */
   height: 20%;
@@ -66,7 +69,8 @@ body, html {
 
 .parallax5{
   /* The image used */
-  background-image: url('bl.png');
+  /* background-image: url('bl.png'); */
+  background-image: url('s.png');
 
   /* Full height */
   height: 20%;
@@ -80,7 +84,8 @@ body, html {
 }
 .parallax6{
   /* The image used */
-  background-image: url('contact.png');
+  /* background-image: url('contact.png'); */
+  background-image: url('s.png');
 
   /* Full height */
   height: 20%;
