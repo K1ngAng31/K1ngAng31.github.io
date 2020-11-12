@@ -10,7 +10,7 @@ body, html {
 /* Parallax background  */
 .parallax {
   /* The image used */
-  background-image: url('s.png');
+  background-image: url('Images/s.png');
 
   /* Full height */
   height: 100%;
@@ -25,7 +25,7 @@ body, html {
 .parallax2{
   /* The image used */
   /* background-image: url('image1.jpg'); */
-  background-image: url('s.png');
+  background-image: url('Images/s.png');
 
   /* Full height */
   height: 50%;
@@ -40,7 +40,7 @@ body, html {
 .parallax3{
   /* The image used */
   /* background-image: url('coding.png'); */
-  background-image: url('s.png');
+  background-image: url('Images/s.png');
 
   /* Full height */
   height: 20%;
@@ -54,7 +54,7 @@ body, html {
 .parallax4{
   /* The image used */
   /* background-image: url('smoke.png'); */
-  background-image: url('s.png');
+  background-image: url('Images/s.png');
 
   /* Full height */
   height: 20%;
@@ -70,7 +70,7 @@ body, html {
 .parallax5{
   /* The image used */
   /* background-image: url('bl.png'); */
-  background-image: url('s.png');
+  background-image: url('Images/s.png');
 
   /* Full height */
   height: 20%;
@@ -85,7 +85,7 @@ body, html {
 .parallax6{
   /* The image used */
   /* background-image: url('contact.png'); */
-  background-image: url('s.png');
+  background-image: url('Images/s.png');
 
   /* Full height */
   height: 20%;
@@ -100,7 +100,7 @@ body, html {
 /* Parallax background  */
 .parallaxend {
   /* The image used */
-  background-image: url('s.png');
+  background-image: url('Images/s.png');
 
   /* Full height */
   height: 50%;
