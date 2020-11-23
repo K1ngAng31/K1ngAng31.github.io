@@ -5,9 +5,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="my_style.css">
     <link rel="icon" type="image/png" href="Images/favicon.ico">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Angel Santana</title>
   </head>
   <body>
@@ -58,108 +55,86 @@
 
   <div class="parallax3" id="PCW"></div>
   <span style="font-size:30px;cursor:pointer;font-family:fantasy" onclick="openNav()">&#9776; Projects</span>
-  <div class="thumbnail">
-        <div id="DemoCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
-
-            <ol class="carousel-indicators">
-                <li data-target="#DemoCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#DemoCarousel" data-slide-to="1"></li>
-                <li data-target="#DemoCarousel" data-slide-to="2"></li>
-                <li data-target="#DemoCarousel" data-slide-to="3"></li>
-                <li data-target="#DemoCarousel" data-slide-to="4"></li>
-                <li data-target="#DemoCarousel" data-slide-to="5"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active">
-                  <div class ="ds" style="font-size: 20px; color:white; margin: 10;">
-                    <h1><u>Patent Penguin</u></h1>
-                    <br>
-                    <p>This semester, I have the oppurtunity to take an Entrepreneurial Projects class where we create an idea, form a company, and pitch this idea to investers, businesses, etc..</p>
-                    <p>In a team of 5, we have formed a company where we can revolutionize legal tech and bring it out of the 80's. We want to offer a software that will make it easier on patent prosecutors.</p>
-                    <p>Patent Penguin is a patent docketing solution that provides project tracking, case notifications, real-time USPTO status tracking, and document editing for patent prosecutors.</p>
-                    <p>We are still in our starting stages as a company, however, if you know of anyone who can benefit from this software please have them email me. You can find this in the contact session. Thank you!</p>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class ="ds" style="font-size: 20px; color:white; margin: 10;">
-                    <h1><u>Learn How to Python</u><a href="soon_to_come.html" target="_blank" style="font-size: 25px;">      Click Here</a></h1>
-                    <br>
-                    <p>Currently working on a website that will explain python in an easy way using my own experiences and my own take on it.
-                      This idea came from me teaching my little sister. I knew there was a better way to make this possible. Not only do I want to make this comprehensible to children, but for adults as well. </p>
-                    <p>Right now it is under construction. I am hoping to have it done by the start of 2021. I am excited to show kids and adults how fun programming can be.</p>
-                    <p>The basics of what I hope to cover. I know there will be a lot more in the future. Teach Python Programming:
-                        <ul>• Go over basic python syntax</ul>
-                        <ul>• Introduction, Installing/Running Python for FIRST TIMERS</ul>
-                        <ul>• Basic Calculations | Varaibles</ul>
-                        <ul>• Python Types</ul>
-                        <ul>• And much more...</ul>
-                    </p>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class ="ds" style="font-size: 20px; color:white; margin: 10;">
-                    <h1><u>Simple Calculator using React.js</u></h1>
-                    <br>
-                    <p>This was the first application I made. It was built using <u>React.js</u>, which is a Front-End, Javascript library.</p>
-                    <p>The main reason I used React.js, is because it is highly popular and I believe this was a great step into creating a fun and interactive UX/UI.
-                      <br>There were a lot of hiccups in creating this app, it is far from perfect, there is still some logical statements that need to be fixed and added. <br> *Improvements Pending*</p>
-                    <p> To check out the code: <a href="https://github.com/K1ngAng31/calcApp" target="_blank" style="color:blue">Calc-App</a>.To test the current version: <a href="https://calc-app.k1ngang31.vercel.app" target="_blank" style="color:blue"> Calculator App</a></p>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class ="ds" style="font-size: 20px; color:white; margin: 10;">
-                    <h1><u>ISS_API</u></h1>
-                    <p>First API Mini-Project</p>
-                    <br>
-                    <p>This was a fun API project that used:<a href="http://api.open-notify.org/" target="_blank"> Open Notify API Server</a>.</p>
-                    <p>Libraries used:
-                      <li>Pandas as pd • requests as rq • json • from datetime import datetime</li></p>
-                    <p>I took in the response using requests.get() to find the current people in space and when the ISS will pass next.</p>
-                    <p>I aslo created a states.csv file that has the state abreviation, lat, and lon. This was used to pass as paramaters to our API. This allowed for outputing duration and risetime.
-                    Then I used the datetime library to conver the risetime timestamp format to datetime. This is used to be more comprehnesible to the public.</p>
-                    <p>Some potential updates:
-                      <ul>• When a wrong abbreviation is entered, give a warning and ask to do it again.</ul>
-                      <ul>• Add a loop so user can keep entering states after state has output information.</ul>
-                    </p>
-                    <p> To check out the code: <a href="https://github.com/K1ngAng31/ISS_API" target="_blank" style="color:blue">ISS_API</a>.</p>
-                      <br>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class ="ds" style="font-size: 20px; color:white; margin: 10;">
-                    <h1><u>Quiz App --> Build has been paused.</u></h1>
-                    <br>
-                    <p> Another fun application built using <u>React.js</u>.</p>
-                    <p> Current Issues include: html body is too at the top., I want to be able to center the content for it to be more appealing, and when questions   are done,
-                    I haven't been able to get it to ask "Try again" or print a message</p>
-                    <p> To check out the code: <a href="https://github.com/K1ngAng31/quiz_app" target="_blank" style="color:blue">Quiz-App</a>. Again, it is running, but not working for user to have a good experience.</p>
-                  </div>
-                </div>
-                <div class="item">
-                   <div class ="ds" style="font-size: 20px; color:white; margin: 10;">
-                     <h1><u>Related Course Work</u></h1>
-                     <br>
-                     <p>Some noticeable course work that inspired me to stay in a Computer Science route.</p>
-                     <p>Data Structures, Algorithms, Intro to Data Science, Intro to Artificial Intelligence, Introduction to Robotics, Software Development Methods & Tools,
-                       and Fundamentals of Human Computer Interaction
-                     </p>
-                     <p>These course taught me the basic ins and outs of computer programming, from Object Oriented Programming to Builing my first website. These course were very much hands on
-                     that every code built and processed was fun. Though at times it was hard and had a lot of SEG FAULTS (if you know what I mean), the oppurtunity
-                   to learn from the mistakes was fun.</p>
-                     <br>
-                   </div>
-                </div>
-            </div>
-            <a class="carousel-control left" href="#DemoCarousel" data-slide="prev"></a>
-            <a class="carousel-control right" href="#DemoCarousel" data-slide="next"></a>
+  <div style="color: #777;background-color:transparent;text-align:center;padding:50px 80px;text-align: justify;">
+      <!-- <h1 style="text-align:center; font-size: 35px;">About Me</h1> -->
+    <div class="row">
+      <div class="column">
+        <div class ="ds" style="font-size: 20px; color:black">
+          <h1 align = "center">Patent Penguin</h1>
+          <p>This semester, I have the oppurtunity to take an Entrepreneurial Projects class where we create an idea, form a company, and pitch this idea to investers, businesses, etc..</p>
+          <p>In a team of 5, we have formed a company where we can revolutionize legal tech and bring it out of the 80's. We want to offer a software that will make it easier on patent prosecutors.</p>
+          <p>Patent Penguin is a patent docketing solution that provides project tracking, case notifications, real-time USPTO status tracking, and document editing for patent prosecutors.</p>
+          <p>We are still in our starting stages as a company, however, if you know of anyone who can benefit from this software please have them email me. You can find this in the contact session. Thank you!</p>
+          <hr>
         </div>
+        <div class ="ds" style="font-size: 20px; color:black">
+          <h1 align = "center">Learn How to Python</h1>
+          <p>Currently working on a website that will explain python in an easy way using my own experiences and my own take on it.
+            This idea came from me teaching my little sister. I knew there was a better way to make this possible. Not only do I want to make this comprehensible to children, but for adults as well. </p>
+          <p>Right now it is under construction. I am hoping to have it done by the start of 2021. I am excited to show kids and adults how fun programming can be. <a href="soon_to_come.html" target="_blank"> Learn to Python</a></p>
+          <p>The basics of what I hope to cover. I know there will be a lot more in the future. Teach Python Programming:
+              <ul>Go over basic python syntax</ul>
+              <ul>Introduction, Installing/Running Python for FIRST TIMERS</ul>
+              <ul>Basic Calculations | Varaibles</ul>
+              <ul>Python Types</ul>
+              <ul>And much more...</ul>
+          </p>
+          <hr>
+        </div>
+        <div class ="ds" style="font-size: 20px; color:black">
+          <h1 align = "center">Simple Calculator using React.js</h1>
+          <p>This was the first application I made. It was built using <u>React.js</u>, which is a Front-End, Javascript library.</p>
+          <p>The main reason I used React.js, is because it is highly popular and I believe this was a great step into creating a fun and interactive UX/UI. There were a lot of hiccups in creating this app, it is far from perfect, there is still some logical statements that need to be fixed and added. *Improvements Pending*</p>
+          <p> To check out the code: <a href="https://github.com/K1ngAng31/calcApp" target="_blank" style="color:blue">Calc-App</a>.To test the current version: <a href="https://calc-app.k1ngang31.vercel.app" target="_blank" style="color:blue"> Calculator App</a></p>
+            <hr>
+        </div>
+      </div>
+      <div class="column">
+        <div class ="ds" style="font-size: 20px; color:black">
+          <h1 align = "center">ISS_API</h1>
+          <p align="center">First API Mini-Project</p>
+          <p>This was a fun API project that used:<a href="http://api.open-notify.org/" target="_blank"> Open Notify API Server</a>.</p>
+          <p>Libraries used:
+              <li>Pandas as pd • requests as rq • json • from datetime import datetime</li></p>
+
+          <p>I took in the response using requests.get() to find the current people in space and when the ISS will pass next.</p>
+
+          <p>I aslo created a states.csv file that has the state abreviation, lat, and lon. This was used to pass as paramaters to our API. This allowed for outputing duration and risetime.
+            Then I used the datetime library to conver the risetime timestamp format to datetime. This is used to be more comprehnesible to the public.</p>
+          <p>Some potential updates:
+            <ul>When a wrong abbreviation is entered, give a warning and ask to do it again.</ul>
+            <ul>Add a loop so user can keep entering states after state has output information.</ul>
+          </p>
+          <p> To check out the code: <a href="https://github.com/K1ngAng31/ISS_API" target="_blank" style="color:blue">ISS_API<a>.</p>
+
+            <hr>
+        </div>
+        <div class ="ds" style="font-size: 20px; color:black">
+          <h1 align = "center">Quiz App --> Build has been paused.</h1>
+          <p> Another fun application built using <u>React.js</u>.</p>
+          <p> Current Issues include: html body is too at the top., I want to be able to center the content for it to be more appealing, and when questions are done,
+            I haven't been able to get it to ask "Try again" or print a message</p>
+         <p> To check out the code: <a href="https://github.com/K1ngAng31/quiz_app" target="_blank" style="color:blue">Quiz-App</a>. Again, it is running, but not working for user to have a good experience.</p>
+         <hr>
+        </div>
+         <div class ="ds" style="font-size: 20px; color:black">
+           <h1 align = "center">Related Course Work</h1>
+           <p>Some noticeable course work that inspired me to stay in a Computer Science route.</p>
+           <p>Data Structures, Algorithms, Intro to Data Science, Intro to Artificial Intelligence, Introduction to Robotics, Software Development Methods & Tools,
+             and Fundamentals of Human Computer Interaction
+           </p>
+           <p>These course taught me the basic ins and outs of computer programming, from Object Oriented Programming to Builing my first website. These course were very much hands on
+           that every code built and processed was fun. Though at times it was hard and had a lot of SEG FAULTS (if you know what I mean), the oppurtunity
+         to learn from the mistakes was fun.</p>
+           <br>
+         </div>
+        </div>
+      </div>
     </div>
 
 
-
-
-
-    <div class="parallax4" id = "PF"></div>
+    <div class="parallax4" id = "PF">
+    </div>
     <span style="font-size:30px;cursor:pointer;font-family:fantasy" onclick="openNav()">&#9776; Profesional Profile</span>
     <div style="color: #777;background-color:transparent;text-align:center;padding:50px 80px;text-align: justify;">
       <!-- <h1 style="text-align:center; font-size: 35px;">About Me</h1> -->
