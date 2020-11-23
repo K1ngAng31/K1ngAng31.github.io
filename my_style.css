@@ -372,3 +372,14 @@ body, html {
   color: #0077b5;
   bottom: 5px;
 }
+
+.item {
+  /*background: black;*/
+  background-image: url('Images/d.png');
+  /*text-align: center;*/
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
